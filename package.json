@@ -27,9 +27,17 @@
     "eslint": "^7.27.0",
     "file-loader": "^6.2.0",
     "html-webpack-plugin": "^5.3.1",
+    "husky": "^6.0.0",
     "mini-css-extract-plugin": "^1.6.0",
     "prettier": "^2.3.0",
     "style-loader": "^2.0.0",
     "url-loader": "^4.1.1"
-  }
+  },
+    "husky":{
+      "hooks":{
+        "pre-commit":"echo \"이것은 커밋전에 출력됨\""
+      }
+    }
+  
+
 }
